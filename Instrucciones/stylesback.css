@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+.header{
+    background-color: black;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.header-content{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+.header-content li {
+    list-style: none;
+}
+
+.header-content ul {
+    
+    display: flex;
+    justify-content: space-between;
+    
+    width: 400px;
+    line-height: 80px;
+
+}
+
+.header-content li:hover {
+    color:chartreuse;
+    cursor: pointer;
+
+}
+

@@ -1,0 +1,46 @@
+body{
+    margin: 20;
+}
+
+.header{
+    background-color: black;
+    height: 200px;
+    color: white;
+}
+
+.header-content{
+    width: 2000px;
+    display: flex;
+    
+    justify-content: space-between;
+    margin: 0 auto; /* Esto va a centrar de manera horizontal*/
+}
+.nav{
+    display: flex;
+    justify-content: flex-end
+}
+
+.header-content li {
+   
+    list-style: none;
+    
+    justify-content: flex-end;
+   
+}
+
+.header-content ul {
+    
+    display: flex;
+    justify-content: space-between;
+    
+    width: 500px;
+    line-height: 60px;
+
+}
+
+.header-content li:hover {
+    color:chartreuse;
+    cursor: pointer;
+
+}
+
