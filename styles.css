@@ -21,26 +21,145 @@ body{
 }
 
 .header-content li {
-   
     list-style: none;
-    
     justify-content: flex-end;
-   
-}
+    font-size: large;
+    font-style:inherit;
+   }
 
 .header-content ul {
-    
     display: flex;
     justify-content: space-between;
-    
     width: 500px;
-    line-height: 60px;
-
-}
+    line-height: 100px;
+   }
 
 .header-content li:hover {
     color:chartreuse;
     cursor: pointer;
+    }
 
+@media jumbotron {
+     
+}
+.jumbotron{
+    display: flex;
+    /*flex-wrap:wrap;*/
+    height: 100%;
+    /*background-color:blue;*/
+    /*border-radius: 16px;*/
+    justify-content: space-between;
 }
 
+h1{
+    color: white;
+}
+
+.renglon {
+    line-height: 30px;
+    color: white;
+    display:block;
+    display:inline-block;
+    width: 600px;
+}
+
+  .one {
+    /*flex: 1 1 auto;*/
+    flex: 1;
+    background-color:black;
+    height: 700px;
+    
+  }
+
+  .two {
+    /*flex: 1 2 auto;*/
+    flex: 2;
+    background-image: url("/jumbotron.jpg"); /* me sirve para poner la imagen*/
+    height: 700px;
+    background-size: cover;
+  }
+
+  .sm{
+    display: flex;
+    justify-content: space-around
+  }
+  .cuadrotexto{
+    border-radius: 5px;
+    height: 90%;
+    width: 90%;
+    font-size: 90%;
+  }
+  .boton{
+    border-radius: 5px;
+    height: 100%;
+    width: 90%;
+  }
+
+  .blog1{
+    display: flex;
+    /*flex-wrap:wrap;*/
+    margin: 0 50px;
+    height: 200%;
+    background-color:white;
+    border-radius: 16px;
+    justify-content: space-between;
+}
+
+.tituloblog{
+    font-size:xx-large;
+    color: black;
+}
+
+.caja1 {
+    /*flex: 1;*/
+    margin: 0 10px;
+    background-image: url("/telecom.jpg");
+    /*background-color:green;*/
+    height: 300px;
+    width: 500px;
+    border-radius: 5%;
+}
+.caja2 {
+    /*flex: 2;*/
+    margin: 0 10px;
+    background-image: url("/servicios.jpg");
+    /*background-color:yellow;*/
+    height: 300px;
+    width: 500px;
+    border-radius: 5%;
+}
+.caja3 {
+    /*flex: 3;*/
+    margin: 0 10px;
+    background-image: url("/socios.jfif");
+    /*background-color:red;*/
+    height: 300px;
+    width: 500px;
+    border-radius: 5%;
+}
+
+
+.caja4 {
+    /*flex: 1;*/
+    margin: 0 10px;
+    background-color:beige;
+    height: 400px;
+    width: 500px;
+    border-radius: 5%;
+}
+.caja5 {
+    /*flex: 2;*/
+    margin: 0 10px;
+    background-color:beige;
+    height: 400px;
+    width: 500px;
+    border-radius: 5%;
+}
+.caja6 {
+    /*flex: 3;*/
+    margin: 0 10px;
+    background-color:beige;
+    height: 400px;
+    width: 500px;
+    border-radius: 5%;
+}
