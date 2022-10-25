@@ -55,6 +55,9 @@ h1{
     color: white;
 }
 
+h2{
+    color: black;
+}
 .renglon {
     line-height: 30px;
     color: white;
@@ -107,9 +110,17 @@ h1{
 
 .tituloblog{
     font-size:xx-large;
-    color: black;
+    
+    text-align: center;
 }
 
+
+.lista{
+    font-size:x-large;
+    color: black;
+    
+    
+}
 .caja1 {
     /*flex: 1;*/
     margin: 0 10px;
@@ -162,4 +173,54 @@ h1{
     height: 400px;
     width: 500px;
     border-radius: 5%;
+}
+
+
+.adicional{
+    display: flex;
+    /*flex-wrap:wrap;*/
+    margin: 0 50px;
+    height: 200%;
+    background-color:black;
+    border-radius: 16px;
+    /*justify-content: space-between;*/
+    justify-content: center;
+}
+
+
+.venn1 {
+    /*flex: 1;*/
+    display: flex;
+    margin: 0 -10px;
+    background-image: url("/SCRUM.jfif");
+    /*background-color:green;*/
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+}
+.venn2 {
+    /*flex: 2;*/
+    display: flex;
+    margin: 0 -10px;
+    background-image: url("/ITIL4.png");
+    /*background-color:yellow;*/
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+}
+.venn3 {
+    /*flex: 3;*/
+    display: flex;
+    margin: 0 -10px;
+    background-image: url("/iso.jpeg");
+    /*background-color:red;*/
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+}
+.fondoadicional{
+    background-color: black;
 }
