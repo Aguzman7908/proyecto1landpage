@@ -243,8 +243,8 @@ h2{
     background-image: url("./SCRUM.jfif");
     /*background-color:green;*/
     border-radius: 50%;
-    width: 800px;
-    height: 800px;
+    width: 400px;
+    height: 400px;
     background-size: cover;
 }
 .venn2 {
@@ -254,8 +254,8 @@ h2{
     background-image: url("./ITIL4.png");
     /*background-color:yellow;*/
     border-radius: 50%;
-    width: 800px;
-    height: 800px;
+    width: 400px;
+    height: 400px;
     background-size: cover;
 }
 .venn3 {
@@ -265,8 +265,8 @@ h2{
     background-image: url("./iso.jpeg");
     /*background-color:red;*/
     border-radius: 50%;
-    width: 800px;
-    height: 800px;
+    width: 400px;
+    height: 400px;
     background-size: cover;
 }
 .fondoadicional{
