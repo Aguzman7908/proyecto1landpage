@@ -251,7 +251,7 @@ h2{
     /*flex: 2;*/
     display: flex;
     margin: 0 -10px;
-    background-image: url("/.ITIL4.png");
+    background-image: url("./ITIL4.png");
     /*background-color:yellow;*/
     border-radius: 50%;
     width: 800px;
@@ -262,7 +262,7 @@ h2{
     /*flex: 3;*/
     display: flex;
     margin: 0 -10px;
-    background-image: url("/.iso.jpeg");
+    background-image: url("./iso.jpeg");
     /*background-color:red;*/
     border-radius: 50%;
     width: 800px;
