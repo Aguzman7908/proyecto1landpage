@@ -76,6 +76,26 @@ body{
         width: 100px;
         margin: 0 auto;
     }
+
+    .venn1 {
+        
+        width: 100px;
+        height: 100px;
+       
+    }
+    
+    .venn2 {
+        
+        width: 100px;
+        height: 100px;
+    }
+
+    .venn3 {
+        
+        width: 100px;
+        height: 100px;
+       
+    }
 }
 
 
