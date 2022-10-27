@@ -42,6 +42,7 @@ body{
      
 }
 
+/*
 @media screen and (max-width:767px){
    .header{
     width: 50px;
@@ -65,11 +66,28 @@ body{
         width: 50px;
        }
 }
+*/
+
+@media screen and (max-width:767px){
+   .nav{
+    display: none;
+   }
+   .header-content > h1  {
+    display: none;
+   }
+   .one{
+    order:1;
+   }
+   .jumbotron{
+    flex-direction: column;
+   }
+
+}
 
 .jumbotron{
     display: flex;
     /*flex-wrap:wrap;*/
-    height: 100%;
+    height: 700px;
     /*background-color:blue;*/
     /*border-radius: 16px;*/
     justify-content: space-between;
@@ -97,7 +115,7 @@ h2{
     /*flex: 1 1 auto;*/
     flex: 1;
     background-color:black;
-    height: 700px;
+    /*height: 700px;*/
     
   }
 
@@ -105,7 +123,7 @@ h2{
     /*flex: 1 2 auto;*/
     flex: 2;
     background-image: url("/jumbotron.jpg"); /* me sirve para poner la imagen*/
-    height: 700px;
+    /*height: 700px;*/
     background-size: cover;
   }
 
@@ -127,12 +145,13 @@ h2{
 
   .blog1{
     display: flex;
-    /*flex-wrap:wrap;*/
+    flex-wrap:wrap;
     margin: 0 50px;
-    height: 200%;
+    /*height: 200%;*/
     background-color:white;
     border-radius: 16px;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .tituloblog{
@@ -151,7 +170,7 @@ h2{
 }
 .caja1 {
     /*flex: 1;*/
-    margin: 0 10px;
+    /*margin: 0 10px;*/
     background-image: url("/telecom.jpg");
     /*background-color:green;*/
     height: 300px;
@@ -180,16 +199,16 @@ h2{
 
 .caja4 {
     /*flex: 1;*/
-    margin: 0 10px;
+    /*margin: 0 10px;*/
     background-color:beige;
-    height: 400px;
+    /*height: 400px;*/
     width: 500px;
     border-radius: 5%;
     
 }
 .caja5 {
     /*flex: 2;*/
-    margin: 0 10px;
+    /*margin: 0 10px;*/
     background-color:beige;
     height: 400px;
     width: 500px;
@@ -197,7 +216,7 @@ h2{
 }
 .caja6 {
     /*flex: 3;*/
-    margin: 0 10px;
+    /*margin: 0 10px;*/
     background-color:beige;
     height: 400px;
     width: 500px;
