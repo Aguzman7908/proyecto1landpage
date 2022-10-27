@@ -191,7 +191,7 @@ h2{
     background-image: url("./telecom.jpg");
     /*background-color:green;*/
     height: 300px;
-    width: 500px;
+    /*width: 500px;*/
     border-radius: 5%;
 }
 .caja2 {
@@ -200,7 +200,7 @@ h2{
     background-image: url("./servicios.jpg");
     /*background-color:yellow;*/
     height: 300px;
-    width: 500px;
+    /*width: 500px;*/
     border-radius: 5%;
 }
 .caja3 {
@@ -209,7 +209,7 @@ h2{
     background-image: url("./socios.jfif");
     /*background-color:red;*/
     height: 300px;
-    width: 500px;
+    /*width: 500px;*/
     border-radius: 5%;
 }
 
@@ -228,7 +228,7 @@ h2{
     /*margin: 0 10px;*/
     background-color:beige;
     height: 400px;
-    width: 500px;
+    /*width: 500px;*/
     border-radius: 5%;
 }
 .caja6 {
@@ -236,7 +236,7 @@ h2{
     /*margin: 0 10px;*/
     background-color:beige;
     height: 400px;
-    width: 500px;
+    /*width: 500px;*/
     border-radius: 5%;
 }
 
