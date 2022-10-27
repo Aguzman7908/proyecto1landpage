@@ -122,7 +122,7 @@ h2{
   .two {
     /*flex: 1 2 auto;*/
     flex: 2;
-    background-image: url("/jumbotron.jpg"); /* me sirve para poner la imagen*/
+    background-image: url("./jumbotron.jpg"); /* me sirve para poner la imagen*/
     /*height: 700px;*/
     background-size: cover;
   }
@@ -171,7 +171,7 @@ h2{
 .caja1 {
     /*flex: 1;*/
     /*margin: 0 10px;*/
-    background-image: url("/telecom.jpg");
+    background-image: url("./telecom.jpg");
     /*background-color:green;*/
     height: 300px;
     width: 500px;
@@ -180,7 +180,7 @@ h2{
 .caja2 {
     /*flex: 2;*/
     margin: 0 10px;
-    background-image: url("/servicios.jpg");
+    background-image: url("./servicios.jpg");
     /*background-color:yellow;*/
     height: 300px;
     width: 500px;
@@ -189,7 +189,7 @@ h2{
 .caja3 {
     /*flex: 3;*/
     margin: 0 10px;
-    background-image: url("/socios.jfif");
+    background-image: url("./socios.jfif");
     /*background-color:red;*/
     height: 300px;
     width: 500px;
@@ -240,7 +240,7 @@ h2{
     /*flex: 1;*/
     display: flex;
     margin: 0 -10px;
-    background-image: url("/SCRUM.jfif");
+    background-image: url("./SCRUM.jfif");
     /*background-color:green;*/
     border-radius: 50%;
     width: 800px;
