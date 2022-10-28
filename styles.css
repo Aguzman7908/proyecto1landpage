@@ -314,19 +314,19 @@ h2{
        }
 
     .caja1{
-        width: 100px;
+        width: 100%;
         margin: 0 auto;
     }
     .caja2{
-        width: 100px;
+        width: 100%;
         margin: 0 auto;
     }
     .caja3{
-        width: 100px;
+        width: 100%;
         margin: 0 auto;
     }
     .caja4{
-        width: 100px;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -349,4 +349,5 @@ h2{
         height: 100px;
        
     }
+
 }
