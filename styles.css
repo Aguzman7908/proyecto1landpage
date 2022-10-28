@@ -258,6 +258,16 @@ h2{
     padding-left: 2rem;
     }
 
+    .video1{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        max-height: 100%;
+        max-width: 100%;
+        margin: auto;
+    }
    
 @media screen and (max-width:767px) {
     .nav{
@@ -314,7 +324,7 @@ h2{
        }
 
        .tituloblog{
-        font-size:small;
+        font-size:x-large;
        }
 
     .caja1{
@@ -351,7 +361,12 @@ h2{
         
         width: 100px;
         height: 100px;
-       
+        }
+
+    .video1{
+        max-width: 100px;
+        max-height: 100px;
+        margin: auto;
     }
 
 }
