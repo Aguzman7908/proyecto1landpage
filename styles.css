@@ -40,97 +40,9 @@ body{
 
 
 
-@media only screen and (max-width:321px)  {
-    .renglon {
-        width: 200px;
-    }
-    .nav{
-        display: none
-       }
-       .header-content > h1  {
-        display: none
-       }
-       .one{
-        order:1
-       }
-       .jumbotron{
-        flex-direction: column
-       }
-       .blog1{
-        gap:80px
-       }
-
-    .caja1{
-        width: 100px;
-        margin: 0 auto;
-    }
-    .caja2{
-        width: 100px;
-        margin: 0 auto;
-    }
-    .caja3{
-        width: 100px;
-        margin: 0 auto;
-    }
-    .caja4{
-        width: 100px;
-        margin: 0 auto;
-    }
-
-    .venn1 {
-        
-        width: 100px;
-        height: 100px;
-       
-    }
-    
-    .venn2 {
-        
-        width: 100px;
-        height: 100px;
-    }
-
-    .venn3 {
-        
-        width: 100px;
-        height: 100px;
-       
-    }
-}
 
 
 
-@media screen and (max-width:767px) {
-    .nav{
-     display: none;
-    }
-    .header-content > h1  {
-     display: none;
-    }
-    .one{
-     order:1;
-    }
-    .jumbotron{
-     flex-direction: column;
-    }
-    .blog1{
-     gap:80px;
-     margin: 0 auto;
-    }
-
-    .caja1{
-        width: 300px;
-        margin: 0 auto;
-    }
-    .caja2{
-        width: 300px;
-        margin: 0 auto;
-    }
-    .caja3{
-        width: 300px;
-        margin: 0 auto;
-    }
- }
 
 .jumbotron{
     display: flex;
@@ -347,3 +259,94 @@ h2{
     }
 
    
+@media screen and (max-width:767px) {
+    .nav{
+     display: none;
+    }
+    .header-content > h1  {
+     display: none;
+    }
+    .one{
+     order:1;
+    }
+    .jumbotron{
+     flex-direction: column;
+    }
+    .blog1{
+     gap:80px;
+     margin: 0 auto;
+    }
+
+    .caja1{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .caja2{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .caja3{
+        width: 300px;
+        margin: 0 auto;
+    }
+ }
+
+ 
+
+@media only screen and (max-width:321px)  {
+    .renglon {
+        width: 200px;
+    }
+    .nav{
+        display: none
+       }
+       .header-content > h1  {
+        display: none
+       }
+       .one{
+        order:1
+       }
+       .jumbotron{
+        flex-direction: column
+       }
+       .blog1{
+        gap:80px
+       }
+
+    .caja1{
+        width: 100px;
+        margin: 0 auto;
+    }
+    .caja2{
+        width: 100px;
+        margin: 0 auto;
+    }
+    .caja3{
+        width: 100px;
+        margin: 0 auto;
+    }
+    .caja4{
+        width: 100px;
+        margin: 0 auto;
+    }
+
+    .venn1 {
+        
+        width: 100px;
+        height: 100px;
+       
+    }
+    
+    .venn2 {
+        
+        width: 100px;
+        height: 100px;
+    }
+
+    .venn3 {
+        
+        width: 100px;
+        height: 100px;
+       
+    }
+}
