@@ -313,6 +313,10 @@ h2{
         gap:80px
        }
 
+       .tituloblog{
+        font-size:small;
+       }
+
     .caja1{
         width: 100%;
         margin: 0 auto;
